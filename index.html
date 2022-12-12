@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bellybutton Biodiversity</title>
+  <title>Belly Button Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
@@ -13,20 +13,20 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center", style = "background-image: url('https://media.istockphoto.com/id/1225687087/vector/holstein-friesian-cattle-in-a-row-side-view.jpg?s=612x612&w=is&k=20&c=_2OOkr3AeThSLUmNPX9cCPk-j9mzsFMUPlGVK-DseX0=')">
         <h1 style="color: rgb(94, 4, 4)">Belly Button Biodiversity Dashboard</h1>
-        <p style="color: rgb(0, 0, 0)">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
+        <h1 style="color: rgb(107, 30, 30)">Use the interactive charts below to explore the dataset</p>
         <h2 style="color: rgb(97, 27, 5); font-size:35px">Project Overview</h2>
-        <p style="color: rgb(0, 0, 0); font-size:25px">This project collected demographic information of bacteria data from volunteers' belly button. Base on these data, 
+        <p style="color: rgb(0, 0, 0); font-size:25px">This project collected demographic information of bacteria data from volunteers' belly buttons. Based on these data, 
           we created a interactive dashboard to visulize each volunteer's belly button biodiversity. <br><br>
-          By selecting Test Subject ID number from the dropdown menu, the individual's demographic information table and the following charts will update. 
+          Select the Test Subject ID number from the dropdown menu. The demographic information table and the following charts will update to display the individual's data. 
           The horizontal bar chart identifys the subject's top 10 bacterial species in their navel. 
-          The bubble chart displays bacteria culture test result for each sample. 
-          The gauge chart reveals reveals how often does the subject clean his belly button.
+          The bubble chart displays bacteria culture test results for each sample. 
+          The gauge chart reveals how often the subject cleans their belly button.
           <br></p>
       </div>
     </div>
@@ -42,28 +42,29 @@
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
-          <div id="sample-metadata" class="panel-body" style="color: rgb(103, 4, 1); background-color: rgb(252, 251, 248)"></div>
+          <div id="sample-metadata" class="panel-body" style=" color: rgb(103, 4, 1); background-color: rgb(252, 251, 248)"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5" style = "border-style: none;">
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5" style = "border-style: none;">
         <div id="gauge"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12" style = "border-style: dotted;">
         <div id="bubble"></div>
       </div>
     </div>
   </div>
-  <hr>
+  <div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <!-- <script src="plots.js"></script> -->
   <script src="charts.js"></script>
 
+  </div>
 </body>
 
 </html>
