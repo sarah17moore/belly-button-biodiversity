@@ -1,5 +1,5 @@
 # Data Visualization in JavaScript with Plotly: Belly Button Biodiversity
-A classwork example in which a Javascript dashboard is created and displayed on an HTML webpage to show Plotly graphs.
+A classwork example in which a Plotly dashboard is created and displayed on an HTML webpage to show Plotly graphs.
 
 ---
 
